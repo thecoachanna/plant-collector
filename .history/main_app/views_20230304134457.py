@@ -3,9 +3,9 @@ from django.shortcuts import render
 # Create your views here.
 # View functions match URLs to code like Controllers in Express
 # define home view function
+
 def home(request):
     return render(request, 'home.html')
 
-# define about view function
-def about(request):
-    return render(request, 'about.html')
+def home(request):
+    return render(request, 'home.html')
