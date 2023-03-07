@@ -8,6 +8,5 @@ urlpatterns = [
     # naming routes is optional but best practice
     path('', views.home, name='home'),
     path('about/', views.about, name='about'),
-    # path for plants
-    path('plants/', views.plants_index, name='index'),
+    
 ]

@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # temporary plants for building templates
 plants = [
-    {'name': 'Monstera', 'type': 'Tropical'},
+    {'name': 'Monstera', 'type': 'tropical'},
     {'name': 'Cactus', 'type': 'Desert'}
 ]
 

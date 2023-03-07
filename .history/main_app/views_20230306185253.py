@@ -1,11 +1,5 @@
 from django.shortcuts import render
 
-# temporary plants for building templates
-plants = [
-    {'name': 'Monstera', 'type': 'Tropical'},
-    {'name': 'Cactus', 'type': 'Desert'}
-]
-
 # Create your views here.
 # View functions match URLs to code like Controllers in Express
 # define home view function
