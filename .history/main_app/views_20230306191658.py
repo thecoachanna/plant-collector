@@ -2,8 +2,8 @@ from django.shortcuts import render
 
 # temporary plants for building templates
 plants = [
-    {'name': 'Monstera', 'type': 'Tropical', 'instructions': ''},
-    {'name': 'Cactus', 'type': 'Desert', 'instructions': ''}
+    {'name': 'Monstera', 'type': 'Tropical', 'descr'},
+    {'name': 'Cactus', 'type': 'Desert'}
 ]
 
 # Create your views here.
