@@ -1,17 +1,13 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<h1>Plant List</h1>
-
-{% for plant in plants %}
+<h1>{{ plant.name }} Details</h1>
   <div class="card">
-    
     <div class="card-content">
       <span class="card-title">{{ plant.name }}</span>
       <p><strong>Type:</strong> {{ plant.type }}</p>
-      <p><strong>Instructions:</strong> {{plant.instructions}}</p>
-      <a href='{% url 'detail' plant.id %}'>View {{plant.name}} Details</a>
+      <p><strong>Instructions:</strong> {{plant.description}}</p>
     </div>
   </div>
-{% endfor %}
+
 {% endblock %}

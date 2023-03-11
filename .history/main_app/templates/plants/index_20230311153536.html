@@ -5,13 +5,13 @@
 
 {% for plant in plants %}
   <div class="card">
-    
+    <a href='/plants/{{ plant.id }}'></a>
     <div class="card-content">
       <span class="card-title">{{ plant.name }}</span>
       <p><strong>Type:</strong> {{ plant.type }}</p>
       <p><strong>Instructions:</strong> {{plant.instructions}}</p>
-      <a href='{% url 'detail' plant.id %}'>View {{plant.name}} Details</a>
     </div>
   </div>
 {% endfor %}
+
 {% endblock %}

@@ -20,6 +20,4 @@ def plants_index(request):
 # Detail route for plants
 # plant_id is defined, expecting an integer in our url
 def plants_detail(request, plant_id):
-    plant = Plant.objects.get(id=plant_id)
-
-    return render(request, 'plants/detail.html', { 'plant': plant })
+    plant = Plant.objects.get(id=)
