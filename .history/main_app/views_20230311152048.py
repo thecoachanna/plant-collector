@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from .models import Plant
 
+
 # Create your views here.
 # View functions match URLs to code like Controllers in Express
 # define home view function

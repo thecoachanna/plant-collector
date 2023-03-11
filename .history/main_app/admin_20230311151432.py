@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Plant
 
 # Register your models here.
+from .models import Plant
 admin.site.register(Plant)
